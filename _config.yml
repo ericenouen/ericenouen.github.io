@@ -114,7 +114,7 @@ author:
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:erenouen@gmail.com"
     - label: "LinkedIn"
-      icon: "fa fa-linkedin"
+      icon: "fab fa-linkedin"
       url: "https://www.linkedin.com/in/eric-enouen-b3aa8718a/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
