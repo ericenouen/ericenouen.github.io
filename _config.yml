@@ -104,10 +104,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
+  name             : "Eric Enouen"
+  avatar           : "/assets/image/Enouen, Eric.jpg"
+  bio              : "Undergraduate student at The Ohio State University studying Computer Science. My research has focused on developing new machine learning models and applying deep learning systems to solve real-world problems."
+  location         : "Columbus, Ohio"
   email            :
   links:
     - label: "Email"
