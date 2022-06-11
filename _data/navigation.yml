@@ -1,6 +1,8 @@
 # main links
 main:
-  - title: "Test"
+  - title: "Home"
+    url: https://ericenouen.github.io/
+  - title: "Research"
     url: https://ericenouen.github.io/research/
   # - title: "Sample Posts"
   #   url: /year-archive/
