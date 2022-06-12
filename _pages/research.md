@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: home
 title: "Research"
 author_profile: true
 permalink: /research/
