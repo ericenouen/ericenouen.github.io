@@ -1,7 +1,7 @@
 ---
 layout: page
-title: About Me
-author_profile: true
+title: "Home"
+permalink: https://ericenouen.github.io/
 ---
 
 This is now the homepage.
