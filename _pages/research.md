@@ -5,8 +5,9 @@ author_profile: true
 permalink: /research/
 ---
 
-### A Predictor-Corrector Method for fair Graph Spam Detection
-#### June 2021 - May 2022
+#### A Predictor-Corrector Method for fair Graph Spam Detection
+June 2021 - May 2022
+
 My first research opportunity was through an REU at Lehigh University under the supervision of Sihong Xie.
 
 
@@ -14,8 +15,9 @@ I worked on a multi-objective optimization method for fair graphical models. The
 
 Preprint not yet available.
 
-### DisGUIDE: Disagreement-Guided Data-Free Model Extraction
-#### June 2022 - August 2022
+#### DisGUIDE: Disagreement-Guided Data-Free Model Extraction
+June 2022 - August 2022
+
 Next, I got the chance to work under Lin Tan at Purdue University through another REU.
 I worked under Lin Tan on data-free model extraction. Model extraction is the process of stealing the performance of a black-box model, and our goal was to improve the query efficiency of these algorithms.
 
