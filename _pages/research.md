@@ -16,7 +16,7 @@ In this work we introduced a novel loss that utilized two different clone models
 #### A Predictor-Corrector Method for fair Graph Spam Detection
 June 2021 - May 2022
 
-My first REU was at Lehigh University under the supervision of Sihong Xie. I worked on a multi-objective optimization method for fair graphical models, that balanced performance metric(s) simultaneously with fairness metric(s) to find the tradeoff curve of solutions, called the pareto front.
+On this project, I participated in an REU at Lehigh University under the supervision of Sihong Xie. I worked on a multi-objective optimization method for fair graphical models, that balanced performance metric(s) simultaneously with fairness metric(s) to find the tradeoff curve of solutions, called the pareto front.
 
 ![Pareto front](https://github.com/ericenouen/ericenouen.github.io/blob/master/assets/image/ParetoFront.png?raw=true)
 
