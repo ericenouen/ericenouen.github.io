@@ -8,7 +8,7 @@ permalink: /research/
 #### Data-free Model Extraction
 June 2022 - August 2022
 
-On this project, I participated in an REU at Purdue University under the supervision of Lin Tan. I worked on developing a data-free model extraction attack, which attempts to copy the functionality of a black-box _victim_ model into a _clone model_ through a query interface. We built off of a prior model extraction paper: [Data-Free Model Extraction](https://arxiv.org/abs/2011.14779). This work uses a generator to synthetically create samples that are used to teach the clone model to better match the victim.
+On this project, I participated in an REU at Purdue University under the supervision of Lin Tan. I worked on developing a data-free model extraction attack, which attempts to copy the functionality of a black-box _victim_ model into a _clone model_ through a query interface. We built off of a prior model extraction paper: [Data-Free Model Extraction](https://arxiv.org/abs/2011.14779) which uses a generator to synthetically create samples to teach the clone model to better match the victim.
 
 In this work we introduced a novel loss that utilized two different clone models and maximized the disagreement between them to find better samples to query the victim model with. We were able to improve both the query efficiency and final accuracy of previous work by a significant margin, and our paper is currently under review by AAAI-23.
 
