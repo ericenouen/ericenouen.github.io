@@ -24,5 +24,3 @@ June 2022 - August 2022
 Next, I got the chance to work under Lin Tan at Purdue University through another REU.
 
 Model extraction is the process of stealing the performance of a black-box model, and our goal was to improve the query efficiency of these algorithms.
-
-<Can add the abstracts later, have to hide for now for double-blind review>
