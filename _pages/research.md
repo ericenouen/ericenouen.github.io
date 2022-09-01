@@ -8,15 +8,15 @@ permalink: /research/
 #### Data-free Model Extraction
 June 2022 - August 2022
 
-Next, I got the chance to work under Lin Tan at Purdue University through another REU.
+On this project, I participated in an REU at Purdue University under the supervision of Lin Tan. I worked on developing a data-free model extraction attack, which attempts to copy the functionality of a black-box _victim_ model into a _clone model_ through a query interface. We built off of a prior model extraction paper: [Data-Free Model Extraction](https://arxiv.org/abs/2011.14779). This work uses a generator to synthetically create samples that are used to teach the clone model to better match the victim.
 
-Model extraction is the process of stealing the performance of a black-box model, and our goal was to improve the query efficiency of these algorithms.
+In this work we introduced a novel loss that utilized two different clone models and maximized the disagreement between them to find better samples to query the victim model with. We were able to improve both the query efficiency and final accuracy of previous work by a significant margin, and our paper is currently under review by AAAI-23.
 
 
 #### A Predictor-Corrector Method for fair Graph Spam Detection
 June 2021 - May 2022
 
-My first research opportunity was through an REU at Lehigh University under the supervision of Sihong Xie. I worked on a multi-objective optimization method for fair graphical models, that balanced performance metric(s) simultaneously with fairness metric(s) to find the tradeoff curve of solutions, called the pareto front.
+My first REU was at Lehigh University under the supervision of Sihong Xie. I worked on a multi-objective optimization method for fair graphical models, that balanced performance metric(s) simultaneously with fairness metric(s) to find the tradeoff curve of solutions, called the pareto front.
 
 ![Pareto front](https://github.com/ericenouen/ericenouen.github.io/blob/master/assets/image/ParetoFront.png?raw=true)
 
