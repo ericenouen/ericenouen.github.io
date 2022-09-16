@@ -24,4 +24,4 @@ On this project, I participated in an REU at Lehigh University under the supervi
 
 Previous methods optimize multiple solutions at once to get closer and closer to the pareto front, however, we used the predictor-corrector method described in this work: [Efficient Continuous Pareto Exploration in Multi-Task Learning](https://arxiv.org/abs/2006.16434) to more efficiently explore the pareto front by exploring from one or multiple solutions on the pareto front to find more optimal solutions. We also applied Krylov recycling methods to their technique to reuse computation between exploration steps.
 
-Preprint not yet available.
+The preprint is available here: [Efficient first-order predictor-corrector multiple objective optimization for fair misinformation detection](https://arxiv.org/abs/2209.07245)
