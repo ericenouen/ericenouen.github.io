@@ -12,7 +12,7 @@ On this project, I participated in an REU at Purdue University under the supervi
 
 In this work we introduced a novel loss that utilized two different clone models and maximized the disagreement between them to find better samples to query the victim model with. We were able to improve both the query efficiency and final accuracy of previous work by a significant margin.
 
-This paper has been accepted to AAAI-2023 where I am second author.
+This paper has been accepted to AAAI 2023 where I am second author.
 
 
 #### A Predictor-Corrector Method for fair Graph Spam Detection
