@@ -10,7 +10,9 @@ June 2022 - August 2022
 
 On this project, I participated in an REU at Purdue University under the supervision of Lin Tan. I worked on developing a data-free model extraction attack, which attempts to copy the functionality of a black-box _victim_ model into a _clone model_ through a query interface. We built off of a prior model extraction paper: [Data-Free Model Extraction](https://arxiv.org/abs/2011.14779) which uses a generator to synthetically create samples to teach the clone model to better match the victim. This clone model can be used for both avoiding paying per query as well as staging further adversarial attacks, and can even be used to extract training data from the victim model.
 
-In this work we introduced a novel loss that utilized two different clone models and maximized the disagreement between them to find better samples to query the victim model with. We were able to improve both the query efficiency and final accuracy of previous work by a significant margin, and our paper is currently under review by AAAI-23.
+In this work we introduced a novel loss that utilized two different clone models and maximized the disagreement between them to find better samples to query the victim model with. We were able to improve both the query efficiency and final accuracy of previous work by a significant margin.
+
+This paper has been accepted to AAAI-2023 where I am second author.
 
 
 #### A Predictor-Corrector Method for fair Graph Spam Detection
@@ -24,4 +26,4 @@ On this project, I participated in an REU at Lehigh University under the supervi
 
 Previous methods optimize multiple solutions at once to get closer and closer to the pareto front, however, we used the predictor-corrector method described in this work: [Efficient Continuous Pareto Exploration in Multi-Task Learning](https://arxiv.org/abs/2006.16434) to more efficiently explore the pareto front by exploring from one or multiple solutions on the pareto front to find more optimal solutions.
 
-The preprint is available here: [Efficient first-order predictor-corrector multiple objective optimization for fair misinformation detection](https://arxiv.org/abs/2209.07245)
+This paper has been accepted to IEEE BigData 2022 where I am co-first author.
