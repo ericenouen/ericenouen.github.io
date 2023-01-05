@@ -13,5 +13,5 @@ I have also gotten the opportunity to climb some outdoors! Two of my major trips
 
 ![Moab Belay](https://github.com/ericenouen/ericenouen.github.io/blob/master/assets/image/moabbelay.jpg?raw=true)
 ![Moab Climb](https://github.com/ericenouen/ericenouen.github.io/blob/master/assets/image/moabclimb.jpg?raw=true)
-![Rumney Climb](https://github.com/ericenouen/ericenouen.github.io/blob/master/assets/image/rumney1?raw=true)
-![Rumney Climb](https://github.com/ericenouen/ericenouen.github.io/blob/master/assets/image/rumney2?raw=true)
+![Rumney Climb](https://github.com/ericenouen/ericenouen.github.io/blob/master/assets/image/rumney1.jpg?raw=true)
+![Rumney Climb](https://github.com/ericenouen/ericenouen.github.io/blob/master/assets/image/rumney2.jpg?raw=true)
