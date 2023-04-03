@@ -16,3 +16,4 @@ I have also gotten the opportunity to climb some outdoors! Two of my major trips
 ![Rumney Climb](https://github.com/ericenouen/ericenouen.github.io/blob/master/assets/image/rumney1.jpg?raw=true)
 ![Rumney Climb](https://github.com/ericenouen/ericenouen.github.io/blob/master/assets/image/rumney2.jpg?raw=true)
 ![Red River Gorge](https://github.com/ericenouen/ericenouen.github.io/blob/master/assets/image/rrg.jpg?raw=true)
+![Hueco Tanks](https://github.com/ericenouen/ericenouen.github.io/blob/master/assets/image/hueco.jpg?raw=true)
