@@ -12,7 +12,7 @@ On this project, I participated in an REU at Purdue University under the supervi
 
 In this work we introduced a novel loss that utilized two different clone models and maximized the disagreement between them to find better samples to query the victim model with. We were able to improve both the query efficiency and final accuracy of previous work by a significant margin.
 
-This paper has been accepted to AAAI 2023 where I am second author.
+This [paper](https://www.cs.purdue.edu/homes/lintan/publications/disguide-aaai23.pdf) has been accepted to AAAI 2023 where I am second author.
 
 
 #### A Predictor-Corrector Method for fair Graph Spam Detection
@@ -26,4 +26,4 @@ On this project, I participated in an REU at Lehigh University under the supervi
 
 Previous methods optimize multiple solutions at once to get closer and closer to the pareto front, however, we used the predictor-corrector method described in this work: [Efficient Continuous Pareto Exploration in Multi-Task Learning](https://arxiv.org/abs/2006.16434) to more efficiently explore the pareto front by exploring from one or multiple solutions on the pareto front to find more optimal solutions.
 
-This paper has been accepted to IEEE BigData 2022 where I am co-first author.
+This [paper](http://www.cse.lehigh.edu/~sxie/paper/bigdata2022.pdf) has been accepted to IEEE BigData 2022 where I am co-first author.
