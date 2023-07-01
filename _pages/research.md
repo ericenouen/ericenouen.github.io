@@ -19,42 +19,36 @@ div.container {
 <body>
 
 
-<div class="polaroid">
-  <div class="container">
-    <p>text</p>
-  </div>
-</div>
-
-<div class="polaroid" style='background-color:#C41230; color: #FFFFFF; border-left: solid #69337A 4px; border-radius: 4px; padding:0.7em;'>
+<div class="polaroid" style='background-color:#C41230; color: #FFFFFF; border-left: solid #000000 4px; border-radius: 4px; padding:0.7em;'>
 <span>
 <p style='margin-top:1em; text-align:left'>
 <b>Carnegie Mellon University</b></p>
 <p style='margin-left:1em;'>
 text
 </p>
-</span>
-</div>
+</span></div>
 
-<div class="warning" style='background-color:#CFB991; color: #000000; border-left: solid #805AD5 4px; border-radius: 4px; padding:0.7em;'>
+<br>
+
+<div class="polaroid" style='background-color:#CFB991; color: #000000; border-left: solid #8E6F3E 4px; border-radius: 4px; padding:0.7em;'>
 <span>
 <p style='margin-top:1em; text-align:left'>
 <b>Purdue University</b></p>
 <p style='margin-left:1em;'>
 text
 </p>
-</span>
+</span></div>
 
-</div>
+<br>
 
-<div class="warning" style='background-color:#E9D8FD; color: #69337A; border-left: solid #805AD5 4px; border-radius: 4px; padding:0.7em;'>
+<div class="polaroid" style='background-color:#653819; color: #FFFFFF; border-left: solid #FED141 4px; border-radius: 4px; padding:0.7em;'>
 <span>
 <p style='margin-top:1em; text-align:left'>
 <b>Lehigh University</b></p>
 <p style='margin-left:1em;'>
 text
 </p>
-</div>
-</span>
+</span></div>
 
 </body>
 
