@@ -11,9 +11,101 @@ I primarily boulder inside, where the wall is typically less than 15 feet tall a
 
 I have also gotten the opportunity to climb some outdoors! Some of my major trips have been to Moab, Rumney Rocks, Red River Gorge, and Hueco Tanks. Here are a couple of pictures from these amazing trips.
 
-![Moab Belay](https://github.com/ericenouen/ericenouen.github.io/blob/master/assets/image/moabbelay.jpg?raw=true)
-![Moab Climb](https://github.com/ericenouen/ericenouen.github.io/blob/master/assets/image/moabclimb.jpg?raw=true)
-![Rumney Climb](https://github.com/ericenouen/ericenouen.github.io/blob/master/assets/image/rumney1.jpg?raw=true)
-![Rumney Climb](https://github.com/ericenouen/ericenouen.github.io/blob/master/assets/image/rumney2.jpg?raw=true)
-![Red River Gorge](https://github.com/ericenouen/ericenouen.github.io/blob/master/assets/image/rrg.jpg?raw=true)
-![Hueco Tanks](https://github.com/ericenouen/ericenouen.github.io/blob/master/assets/image/hueco.JPG?raw=true)
+<html>
+  <head>
+    <style>
+      #gallery {
+        width: 600px;
+        overflow: hidden;
+        position: relative;
+        z-index: 1;
+        margin: 100px auto;
+        border: 2px solid #003C72;
+      }
+      #navigation {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: space-between;
+      }
+      #navigation li {
+        padding: 0;
+        margin: 0;
+        margin: 5px 0 20px;
+      }
+      #navigation li a img {
+        display: block;
+        border: none;
+      }
+      #navigation li a {
+        display: block;
+      }
+      #full-picture {
+        width: 600px;
+        height: 375px;
+        overflow: hidden;
+        float: left;
+      }
+      #full-picture img {
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="gallery">
+      <ul id="navigation">
+        <li>
+          <a href="#picture1">
+            <img alt="Moab Belay" src="https://github.com/ericenouen/ericenouen.github.io/blob/master/assets/image/moabbelay.jpg" />
+          </a>
+        </li>
+        <li>
+          <a href="#picture2">
+            <img alt="Moab Climb" src="https://github.com/ericenouen/ericenouen.github.io/blob/master/assets/image/moabclimb.jpg" />
+          </a>
+        </li>
+        <li>
+          <a href="#picture3">
+            <img alt="Rumney Climb 1" src="https://github.com/ericenouen/ericenouen.github.io/blob/master/assets/image/rumney1.jpg" />
+          </a>
+        </li>
+        <li>
+          <a href="#picture4">
+            <img alt="Rumney Climb 2" src="https://github.com/ericenouen/ericenouen.github.io/blob/master/assets/image/rumney2.jpg" />
+          </a>
+        </li>        
+        <li>
+          <a href="#picture5">
+            <img alt="Red River Gorge" src="https://github.com/ericenouen/ericenouen.github.io/blob/master/assets/image/rrg.jpg" />
+          </a>
+        </li>
+        <li>
+          <a href="#picture6">
+            <img alt="Hueco Tanks" src="https://github.com/ericenouen/ericenouen.github.io/blob/master/assets/image/hueco.jpg" />
+          </a>
+        </li>
+      </ul>
+      <div id="full-picture">
+        <div>
+          <img id="picture1" alt="Moab Belay" src="https://github.com/ericenouen/ericenouen.github.io/blob/master/assets/image/moabbelay.jpg" />
+        </div>
+        <div>
+          <img id="picture2" alt="Moab Climb" src="https://github.com/ericenouen/ericenouen.github.io/blob/master/assets/image/moabclimb.jpg" />
+        </div>
+        <div>
+          <img id="picture3" alt="Rumney Climb 1" src="https://github.com/ericenouen/ericenouen.github.io/blob/master/assets/image/rumney1.jpg" />
+        </div>
+        <div>
+          <img id="picture4" alt="Rumney Climb 2" src="https://github.com/ericenouen/ericenouen.github.io/blob/master/assets/image/rumney2.jpg" />
+        </div>
+        <div>
+          <img id="picture5" alt="Red River Gorge" src="https://github.com/ericenouen/ericenouen.github.io/blob/master/assets/image/rrg.jpg" />
+        </div>
+        <div>
+          <img id="picture6" alt="Hueco Tanks" src="https://github.com/ericenouen/ericenouen.github.io/blob/master/assets/image/hueco.jpg" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
