@@ -20,17 +20,14 @@ div.container {
 
 
 <div class="polaroid" style='background-color:#C41230; color: #FFFFFF; border-left: solid #000000 4px; border-radius: 4px; padding:0.7em;'>
-<span>
 <p style='margin-top:1em; text-align:left'>
 <b>Carnegie Mellon University</b></p>
 <p style='margin-left:1em;'>
 text
-</p>
-</span></div>
+</p></div>
 <br>
 
 <div class="polaroid" style='background-color:#CFB991; color: #000000; border-left: solid #8E6F3E 4px; border-radius: 4px; padding:0.7em;'>
-<span>
 <p style='margin-top:1em; text-align:left'>
 <b>Purdue University</b>></p>
 <p style=color: #8E6F3E>June 2022 - May 2023</p>
@@ -40,12 +37,10 @@ Under the supervision of Lin Tan, I worked on developing a data-free model extra
 In this work we introduced a novel loss that utilized two different clone models and maximized the disagreement between them to find better samples to query the victim model with. We were able to improve both the query efficiency and final accuracy of previous work by a significant margin.
 
 This [paper](https://www.cs.purdue.edu/homes/lintan/publications/disguide-aaai23.pdf) has been accepted to AAAI 2023 where I am second author.
-</p>
-</span></div>
+</p></div>
 <br>
 
 <div class="polaroid" style='background-color:#653819; color: #FFFFFF; border-left: solid #FED141 4px; border-radius: 4px; padding:0.7em;'>
-<span>
 <p style='margin-top:1em; text-align:left'>
 <b>Lehigh University</b></p>
 <p style=color: #8E6F3E>June 2021 - May 2022</p>
@@ -59,7 +54,6 @@ Previous methods optimize multiple solutions at once to get closer and closer to
 This [paper](http://www.cse.lehigh.edu/~sxie/paper/bigdata2022.pdf) has been accepted to IEEE BigData 2022 where I am co-first author.
 
 [1] Picture from _A computational multi-objective optimization method to improve energy efficiency and thermal comfort in dwellings_
-</p>
-</span></div>
+</p></div>
 
 </body>
