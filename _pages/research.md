@@ -42,7 +42,7 @@ Working with Artur Dubrawski and Sebastian Caldas on explainable federated learn
 </div>
 <div style="clear: both;"></div>
 <p style='margin-left:1em;'>
-Under the supervision of Lin Tan, I worked on developing a data-free model extraction attack, which attempts to copy the functionality of a black-box _victim_ model into a _clone model_ through a query interface. Prior work used a generator to synthetically create samples to teach the clone model to better match the victim. This clone model can be used for both avoiding paying per query as well as staging further adversarial attacks, and can even be used to extract training data from the victim model.
+Under the supervision of Lin Tan, I worked on developing a data-free model extraction attack, which attempts to copy the functionality of a black-box <em>victim</em> model into a <em>clone model</em> through a query interface. Prior work used a generator to synthetically create samples to teach the clone model to better match the victim. This clone model can be used for both avoiding paying per query as well as staging further adversarial attacks, and can even be used to extract training data from the victim model.
 
 In this work we introduced a novel loss that utilized two different clone models and maximized the disagreement between them to find better samples to query the victim model with. We were able to improve both the query efficiency and final accuracy of previous work by a significant margin.
 
@@ -59,8 +59,9 @@ This <a href="https://www.cs.purdue.edu/homes/lintan/publications/disguide-aaai2
 <p style='margin-left:1em;'>
 I worked under Sihong Xie on a multi-objective optimization method for fair graphical models, that balanced performance metric(s) simultaneously with fairness metric(s) to find the tradeoff curve of solutions, called the pareto front.
 
+<div>
 <img src="https://github.com/ericenouen/ericenouen.github.io/blob/master/assets/image/ParetoFront.png?raw=true" alt="Pareto Front - A computational multi-objective optimization method to improve energy efficiency and thermal comfort in dwellings">
-<br>
+</div>
 
 Previous methods optimize multiple solutions at once to get closer and closer to the pareto front, however, we used the predictor-corrector method described in this work: <a href="https://arxiv.org/abs/2006.16434">Efficient Continuous Pareto Exploration in Multi-Task Learning</a> to more efficiently explore the pareto front by exploring from one or multiple solutions on the pareto front to find more optimal solutions.
 
