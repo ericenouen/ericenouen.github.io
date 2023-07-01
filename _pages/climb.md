@@ -10,48 +10,170 @@ Over winter break of my freshman year, I went with a couple of friends to a clim
 I primarily boulder inside, where the wall is typically less than 15 feet tall and you just fall on to a crash pad on the floor. I enjoy the process of working through difficult moves and the payoff from eventually sending the problem.
 
 I have also gotten the opportunity to climb some outdoors! Some of my major trips have been to Moab, Rumney Rocks, Red River Gorge, and Hueco Tanks. Here are a couple of pictures from these amazing trips.
-
 <html>
-  <head>
-    <style>
-      #gallery {
-        width: 600px;
-        overflow: hidden;
-        position: relative;
-        z-index: 1;
-        margin: 100px auto;
-        border: 2px solid #003C72;
-      }
-      #navigation {
-        list-style: none;
-        padding: 0;
-        margin: 0;
-        display: flex;
-        justify-content: space-between;
-      }
-      #navigation li {
-        padding: 0;
-        margin: 0;
-        margin: 5px 0 20px;
-      }
-      #navigation li a img {
-        display: block;
-        border: none;
-      }
-      #navigation li a {
-        display: block;
-      }
-      #full-picture {
-        width: 600px;
-        height: 375px;
-        overflow: hidden;
-        float: left;
-      }
-      #full-picture img {
-        width: 100%;
-      }
-    </style>
-  </head>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+</style>
+</head>
+<body>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="https://github.com/ericenouen/ericenouen.github.io/blob/master/assets/image/moabbelay.jpg?raw=true" style="width:100%">
+  <div class="text">Caption Text</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="img_snow_wide.jpg" style="width:100%">
+  <div class="text">Caption Two</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="img_mountains_wide.jpg" style="width:100%">
+  <div class="text">Caption Three</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+</body>
+</html> 
+
+
+
   <body>
     <div id="gallery">
       <ul id="navigation">
@@ -109,111 +231,3 @@ I have also gotten the opportunity to climb some outdoors! Some of my major trip
     </div>
   </body>
 </html>
-
-
-
-
-<html>
-<head>
-<style>
-div.gallery {
-  border: 1px solid #ccc;
-}
-
-div.gallery:hover {
-  border: 1px solid #777;
-}
-
-div.gallery img {
-  width: 100%;
-  height: auto;
-}
-
-div.desc {
-  padding: 15px;
-  text-align: center;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-.responsive {
-  padding: 0 6px;
-  float: left;
-  width: 24.99999%;
-}
-
-@media only screen and (max-width: 700px) {
-  .responsive {
-    width: 49.99999%;
-    margin: 6px 0;
-  }
-}
-
-@media only screen and (max-width: 500px) {
-  .responsive {
-    width: 100%;
-  }
-}
-
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-</style>
-</head>
-<body>
-
-<h2>Responsive Image Gallery</h2>
-
-<h4>Resize the browser window to see the effect.</h4>
-
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="img_5terre.jpg">
-      <img alt="Moab Belay" src="https://github.com/ericenouen/ericenouen.github.io/blob/master/assets/image/moabbelay.jpg?raw=true" width="600" height="400">
-    </a>
-    <div class="desc">Add a description of the image here</div>
-  </div>
-</div>
-
-
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="img_forest.jpg">
-      <img id="picture2" alt="Moab Climb" src="https://github.com/ericenouen/ericenouen.github.io/blob/master/assets/image/moabclimb.jpg?raw=true" width="600" height="400">
-    </a>
-    <div class="desc">Add a description of the image here</div>
-  </div>
-</div>
-
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="img_lights.jpg">
-      <img id="picture5" alt="Red River Gorge" src="https://github.com/ericenouen/ericenouen.github.io/blob/master/assets/image/rrg.jpg?raw=true?raw=true" width="600" height="400">
-    </a>
-    <div class="desc">Add a description of the image here</div>
-  </div>
-</div>
-
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="img_mountains.jpg">
-      <img id="picture6" alt="Hueco Tanks" src="https://github.com/ericenouen/ericenouen.github.io/blob/master/assets/image/hueco.JPG?raw=true" width="600" height="400">
-    </a>
-<!--     <div class="desc">Add a description of the image here</div> -->
-  </div>
-</div>
-
-<div class="clearfix"></div>
-
-<div style="padding:6px;">
-  <p>This example use media queries to re-arrange the images on different screen sizes: for screens larger than 700px wide, it will show four images side by side, for screens smaller than 700px, it will show two images side by side. For screens smaller than 500px, the images will stack vertically (100%).</p>
-  <p>You will learn more about media queries and responsive web design later in our CSS Tutorial.</p>
-</div>
-
-</body>
-</html>
-
