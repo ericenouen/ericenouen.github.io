@@ -30,7 +30,7 @@ div.container {
   </div>
 </div>
 
-<div class="warning" style='background-color:#C41230; color: #69337A; border-left: solid #000000 4px; border-radius: 4px; padding:0.7em;'>
+<div class="warning" style='background-color:#C41230; color: #69337A; border-left: solid #FFFFFF 4px; border-radius: 4px; padding:0.7em;'>
 <span>
 <p style='margin-top:1em; text-align:left'>
 <b>Purdue University</b></p>
