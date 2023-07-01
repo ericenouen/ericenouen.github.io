@@ -111,21 +111,33 @@ img {vertical-align: middle;}
 <div class="slideshow-container">
 
 <div class="mySlides fade">
-  <div class="numbertext">1 / 3</div>
+  <div class="numbertext">1 / 6</div>
   <img src="https://github.com/ericenouen/ericenouen.github.io/blob/master/assets/image/moabbelay.jpg?raw=true" style="width:100%">
-  <div class="text">Moab</div>
 </div>
 
 <div class="mySlides fade">
-  <div class="numbertext">2 / 3</div>
+  <div class="numbertext">2 / 6</div>
   <img src="https://github.com/ericenouen/ericenouen.github.io/blob/master/assets/image/moabclimb.jpg?raw=true" style="width:100%">
-  <div class="text">Moab</div>
 </div>
 
 <div class="mySlides fade">
-  <div class="numbertext">3 / 3</div>
+  <div class="numbertext">3 / 6</div>
   <img src="https://github.com/ericenouen/ericenouen.github.io/blob/master/assets/image/rumney1.jpg?raw=true" style="width:100%">
-  <div class="text">Rumney Rocks</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 6</div>
+  <img src="https://github.com/ericenouen/ericenouen.github.io/blob/master/assets/image/rumney2.jpg?raw=true" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">5 / 6</div>
+  <img src="https://github.com/ericenouen/ericenouen.github.io/blob/master/assets/image/rrg.jpg?raw=true" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">6 / 6</div>
+  <img src="https://github.com/ericenouen/ericenouen.github.io/blob/master/assets/image/hueco.JPG?raw=true" style="width:100%">
 </div>
 
 <a class="prev" onclick="plusSlides(-1)">❮</a>
@@ -170,11 +182,4 @@ function showSlides(n) {
 </script>
 
 </body>
-</html> 
-
-<img alt="Moab Belay" src="https://github.com/ericenouen/ericenouen.github.io/blob/master/assets/image/moabbelay.jpg?raw=true" />
-<img alt="Moab Climb" src="https://github.com/ericenouen/ericenouen.github.io/blob/master/assets/image/moabclimb.jpg?raw=true" />
-<img alt="Rumney Climb 1" src="https://github.com/ericenouen/ericenouen.github.io/blob/master/assets/image/rumney1.jpg?raw=true" />
-<img alt="Rumney Climb 2" src="https://github.com/ericenouen/ericenouen.github.io/blob/master/assets/image/rumney2.jpg?raw=true" />
-<img alt="Red River Gorge" src="https://github.com/ericenouen/ericenouen.github.io/blob/master/assets/image/rrg.jpg?raw=true" />
-<img alt="Hueco Tanks" src="https://github.com/ericenouen/ericenouen.github.io/blob/master/assets/image/hueco.JPG?raw=true" />
+</html>
