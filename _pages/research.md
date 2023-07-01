@@ -32,6 +32,7 @@ div.container {
 <p style='margin-left:1em;'>
 text
 </p>
+</span>
 </div>
 
 <div class="warning" style='background-color:#CFB991; color: #000000; border-left: solid #805AD5 4px; border-radius: 4px; padding:0.7em;'>
@@ -41,6 +42,7 @@ text
 <p style='margin-left:1em;'>
 text
 </p>
+</span>
 
 </div>
 
@@ -52,6 +54,7 @@ text
 text
 </p>
 </div>
+</span>
 
 </body>
 
