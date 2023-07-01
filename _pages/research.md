@@ -57,7 +57,8 @@ This <a href="https://www.cs.purdue.edu/homes/lintan/publications/disguide-aaai2
 <p style='margin-left:1em;'>
 I worked under Sihong Xie on a multi-objective optimization method for fair graphical models, that balanced performance metric(s) simultaneously with fairness metric(s) to find the tradeoff curve of solutions, called the pareto front.
 
-<img src="https://github.com/ericenouen/ericenouen.github.io/blob/master/assets/image/ParetoFront.png?raw=true" alt="Pareto Front - A computational multi-objective optimization method to improve energy efficiency and thermal comfort in dwellings">![Pareto front]
+<img src="https://github.com/ericenouen/ericenouen.github.io/blob/master/assets/image/ParetoFront.png?raw=true" alt="Pareto Front - A computational multi-objective optimization method to improve energy efficiency and thermal comfort in dwellings">
+<br>
 
 Previous methods optimize multiple solutions at once to get closer and closer to the pareto front, however, we used the predictor-corrector method described in this work: <a href="https://arxiv.org/abs/2006.16434">Efficient Continuous Pareto Exploration in Multi-Task Learning</a> to more efficiently explore the pareto front by exploring from one or multiple solutions on the pareto front to find more optimal solutions.
 
