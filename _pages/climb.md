@@ -62,13 +62,6 @@ img {vertical-align: top;}
   top: 0;
 }
 
-img {
-    float: left;
-    width:  1000px;
-    height: 600px;
-    object-fit: cover;
-}
-
 /* The dots/bullets/indicators */
 .dot {
   cursor: pointer;
@@ -182,3 +175,9 @@ function showSlides(n) {
 
 </body>
 </html>
+<!-- img {
+    float: left;
+    width:  1000px;
+    height: 600px;
+    object-fit: cover;
+} -->
