@@ -53,17 +53,6 @@ img {vertical-align: top;}
   background-color: rgba(0,0,0,0.8);
 }
 
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
-
 /* Number text (1/3 etc) */
 .numbertext {
   color: #f2f2f2;
@@ -71,6 +60,13 @@ img {vertical-align: top;}
   padding: 8px 12px;
   position: absolute;
   top: 0;
+}
+
+img {
+    float: left;
+    width:  100px;
+    height: 100px;
+    object-fit: cover;
 }
 
 /* The dots/bullets/indicators */
@@ -112,32 +108,32 @@ img {vertical-align: top;}
 
 <div class="mySlides fade">
   <div class="numbertext">1 / 6</div>
-  <img src="https://github.com/ericenouen/ericenouen.github.io/blob/master/assets/image/moabbelay.jpg?raw=true" style="width:100%">
+  <img src="https://github.com/ericenouen/ericenouen.github.io/blob/master/assets/image/moabbelay.jpg?raw=true">
 </div>
 
 <div class="mySlides fade">
   <div class="numbertext">2 / 6</div>
-  <img src="https://github.com/ericenouen/ericenouen.github.io/blob/master/assets/image/moabclimb.jpg?raw=true" style="width:100%">
+  <img src="https://github.com/ericenouen/ericenouen.github.io/blob/master/assets/image/moabclimb.jpg?raw=true">
 </div>
 
 <div class="mySlides fade">
   <div class="numbertext">3 / 6</div>
-  <img src="https://github.com/ericenouen/ericenouen.github.io/blob/master/assets/image/rumney1.jpg?raw=true" style="width:100%">
+  <img src="https://github.com/ericenouen/ericenouen.github.io/blob/master/assets/image/rumney1.jpg?raw=true">
 </div>
 
 <div class="mySlides fade">
   <div class="numbertext">4 / 6</div>
-  <img src="https://github.com/ericenouen/ericenouen.github.io/blob/master/assets/image/rumney2.jpg?raw=true" style="width:100%">
+  <img src="https://github.com/ericenouen/ericenouen.github.io/blob/master/assets/image/rumney2.jpg?raw=true">
 </div>
 
 <div class="mySlides fade">
   <div class="numbertext">5 / 6</div>
-  <img src="https://github.com/ericenouen/ericenouen.github.io/blob/master/assets/image/rrg.jpg?raw=true" style="width:100%">
+  <img src="https://github.com/ericenouen/ericenouen.github.io/blob/master/assets/image/rrg.jpg?raw=true">
 </div>
 
 <div class="mySlides fade">
   <div class="numbertext">6 / 6</div>
-  <img src="https://github.com/ericenouen/ericenouen.github.io/blob/master/assets/image/hueco.JPG?raw=true" style="width:100%">
+  <img src="https://github.com/ericenouen/ericenouen.github.io/blob/master/assets/image/hueco.JPG?raw=true">
 </div>
 
 <a class="prev" onclick="plusSlides(-1)">❮</a>
