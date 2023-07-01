@@ -27,7 +27,6 @@ div.container {
 
 
 <div class="polaroid" style='background-color:#C41230; color: #FFFFFF; border-left: solid #000000 4px; border-radius: 4px; padding:0.7em;'>
-<p style='margin-top:1em; text-align:left'>
 <div>
   <p class="alignleft"; style='margin-top:1em><b>Carnegie Mellon University</b></p>
   <p class="alignright"; style='margin-top:1em><span style="color:#000000">June 2023 - Present</span></p>
@@ -52,7 +51,6 @@ This <a href="https://www.cs.purdue.edu/homes/lintan/publications/disguide-aaai2
 <br>
 
 <div class="polaroid" style='background-color:#653819; color: #FFFFFF; border-left: solid #FED141 4px; border-radius: 4px; padding:0.7em;'>
-<p style='margin-top:1em; text-align:left'>
 <div>
   <p class="alignleft"; style='margin-top:1em><b>Lehigh University</b></p>
   <p class="alignright"; style='margin-top:1em><span style="color:#FED141">June 2021 - May 2022</span></p>
