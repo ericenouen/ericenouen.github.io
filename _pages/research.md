@@ -37,9 +37,10 @@ Working with Artur Dubrawski and Sebastian Caldas on explainable federated learn
 
 <div class="polaroid" style='background-color:#CFB991; color: #000000; border-left: solid #8E6F3E 4px; border-radius: 4px; padding:0.7em;'>
 <div>
-  <p class="alignleft"; style='margin-top:1em><b>Purdue University</b></p>
-  <p class="alignright"; style='margin-top:1em><span style="color:#8E6F3E">June 2022 - May 2023</span></p>
+  <p class="alignleft"><b>Purdue University</b></p>
+  <p class="alignright"><span style="color:#8E6F3E">June 2022 - May 2023</span></p>
 </div>
+<div style="clear: both;"></div>
 <p style='margin-left:1em;'>
 Under the supervision of Lin Tan, I worked on developing a data-free model extraction attack, which attempts to copy the functionality of a black-box _victim_ model into a _clone model_ through a query interface. Prior work used a generator to synthetically create samples to teach the clone model to better match the victim. This clone model can be used for both avoiding paying per query as well as staging further adversarial attacks, and can even be used to extract training data from the victim model.
 
@@ -51,9 +52,10 @@ This <a href="https://www.cs.purdue.edu/homes/lintan/publications/disguide-aaai2
 
 <div class="polaroid" style='background-color:#653819; color: #FFFFFF; border-left: solid #FED141 4px; border-radius: 4px; padding:0.7em;'>
 <div>
-  <p class="alignleft"; style='margin-top:1em><b>Lehigh University</b></p>
-  <p class="alignright"; style='margin-top:1em><span style="color:#FED141">June 2021 - May 2022</span></p>
+  <p class="alignleft"><b>Lehigh University</b></p>
+  <p class="alignright"><span style="color:#FED141">June 2021 - May 2022</span></p>
 </div>
+<div style="clear: both;"></div>
 <p style='margin-left:1em;'>
 I worked under Sihong Xie on a multi-objective optimization method for fair graphical models, that balanced performance metric(s) simultaneously with fairness metric(s) to find the tradeoff curve of solutions, called the pareto front.
 
