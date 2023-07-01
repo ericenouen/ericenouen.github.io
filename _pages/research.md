@@ -34,10 +34,10 @@ This [paper](https://www.cs.purdue.edu/homes/lintan/publications/disguide-aaai23
   </div>
 </div>
 
-<div class="warning" style='background-color:#C41230; color: #69337A; border-left: solid #FFFFFF 4px; border-radius: 4px; padding:0.7em;'>
+<div class="warning" style='background-color:#C41230; color: #FFFFFF; border-left: solid #69337A 4px; border-radius: 4px; padding:0.7em;'>
 <span>
 <p style='margin-top:1em; text-align:left'>
-<b>Purdue University</b></p>
+<b>Carnegie Mellon University</b></p>
 <p style='margin-left:1em;'>
 June 2022 - May 2023
 
