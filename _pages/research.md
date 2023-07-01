@@ -19,14 +19,18 @@ div.container {
 </head>
 <body>
 
-<h1>Create Polaroid Images</h1>
 
 <p>The box-shadow property can be used to create polaroid images:</p>
 
 <div class="polaroid">
-  <img src="rock600x400.jpg" alt="Norway" style="width:100%">
   <div class="container">
-    <p>Hardanger, Norway</p>
+    <p>
+      On this project, I participated in an REU at Purdue University under the supervision of Lin Tan. I worked on developing a data-free model extraction attack, which attempts to copy the functionality of a black-box _victim_ model into a _clone model_ through a query interface. We built off of a prior model extraction paper: [Data-Free Model Extraction](https://arxiv.org/abs/2011.14779) which uses a generator to synthetically create samples to teach the clone model to better match the victim. This clone model can be used for both avoiding paying per query as well as staging further adversarial attacks, and can even be used to extract training data from the victim model.
+
+In this work we introduced a novel loss that utilized two different clone models and maximized the disagreement between them to find better samples to query the victim model with. We were able to improve both the query efficiency and final accuracy of previous work by a significant margin.
+
+This [paper](https://www.cs.purdue.edu/homes/lintan/publications/disguide-aaai23.pdf) has been accepted to AAAI 2023 where I am second author.
+</p>
   </div>
 </div>
 
