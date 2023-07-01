@@ -50,7 +50,7 @@ This [paper](https://www.cs.purdue.edu/homes/lintan/publications/disguide-aaai23
 <b>Lehigh University</b></p>
 <p style=color: #8E6F3E>June 2021 - May 2022</p>
 <p style='margin-left:1em;'>
-On this project, I participated in an REU at Lehigh University under the supervision of Sihong Xie. I worked on a multi-objective optimization method for fair graphical models, that balanced performance metric(s) simultaneously with fairness metric(s) to find the tradeoff curve of solutions, called the pareto front.
+I worked under Sihong Xie on a multi-objective optimization method for fair graphical models, that balanced performance metric(s) simultaneously with fairness metric(s) to find the tradeoff curve of solutions, called the pareto front.
 
 ![Pareto front](https://github.com/ericenouen/ericenouen.github.io/blob/master/assets/image/ParetoFront.png?raw=true) [1]
 
