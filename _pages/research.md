@@ -42,7 +42,7 @@ Working with Artur Dubrawski and Sebastian Caldas on explainable federated learn
 </div>
 <div style="clear: both;"></div>
 <p style='margin-left:1em;'>
-Under the supervision of Lin Tan, I worked on developing a data-free model extraction attack, which attempts to copy the functionality of a black-box <em>victim</em> model into a <em>clone model</em> through a query interface. Prior work used a generator to synthetically create samples to teach the clone model to better match the victim. This clone model can be used for both avoiding paying per query as well as staging further adversarial attacks, and can even be used to extract training data from the victim model.
+Under the supervision of Lin Tan, I worked on developing a data-free model extraction attack, which attempts to copy the functionality of a black-box <em>victim</em> model into a <em>clone</em> model through a query interface. Prior work used a generator to synthetically create samples to teach the clone model to better match the victim. This clone model can be used for both avoiding paying per query as well as staging further adversarial attacks, and can even be used to extract training data from the victim model.
 
 In this work we introduced a novel loss that utilized two different clone models and maximized the disagreement between them to find better samples to query the victim model with. We were able to improve both the query efficiency and final accuracy of previous work by a significant margin.
 
