@@ -27,10 +27,9 @@ div.container {
 
 
 <div class="polaroid" style='background-color:#C41230; color: #FFFFFF; border-left: solid #000000 4px; border-radius: 4px; padding:0.7em;'>
-<div>
   <p class="alignleft"; style='margin-top:1em><b>Carnegie Mellon University</b></p>
   <p class="alignright"; style='margin-top:1em><span style="color:#000000">June 2023 - Present</span></p>
-</div>
+<div style="clear: both;"></div>
 <p style='margin-left:1em;'>
 Working with Artur Dubrawski and Sebastian Caldas on explainable federated learning in a healthcare setting.
 </p></div>
