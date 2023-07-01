@@ -64,8 +64,8 @@ img {vertical-align: top;}
 
 img {
     float: left;
-    width:  100px;
-    height: 100px;
+    width:  1000px;
+    height: 600px;
     object-fit: cover;
 }
 
