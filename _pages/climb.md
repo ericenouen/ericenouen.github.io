@@ -29,8 +29,8 @@ img {vertical-align: top;}
 
 /* Slideshow container */
 .img-container {
-  max-width: 600px;
-  max-height: 400px;
+  max-width: 700px;
+  max-height: 500px;
   position: relative;
   margin: auto;
 }
