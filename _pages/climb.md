@@ -27,14 +27,6 @@ img {vertical-align: top;}
   margin: auto;
 }
 
-/* Slideshow container */
-.img-container {
-  max-width: 700px;
-  max-height: 500px;
-  position: relative;
-  margin: auto;
-}
-
 /* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
@@ -184,9 +176,3 @@ function showSlides(n) {
 
 </body>
 </html>
-<!-- img {
-    float: left;
-    width:  1000px;
-    height: 600px;
-    object-fit: cover;
-} -->
