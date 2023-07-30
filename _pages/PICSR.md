@@ -1,6 +1,6 @@
 ---
 layout: home
-title: "Research Projects"
+title: "PICSR: Prototype-Informed Cross-Silo Router for Federated Learning"
 author_profile: true
 permalink: /PICSR/
 ---
