@@ -5,4 +5,7 @@ author_profile: true
 permalink: /PICSR/
 ---
 
-Here is my landing page for my research project!
+This research project was as part of RISS (Robotics Institute of Summer Scholars) under Sebastian Caldas and Artur Dubrawski from the Auton Lab.
+
+[Here](https://github.com/ericenouen/ericenouen.github.io/blob/master/assets/image/RISS_Final_Paper) is a link to the paper.
+[Here](https://github.com/ericenouen/ericenouen.github.io/blob/master/assets/image/RISS Poster.pdf) is a link to the poster.
