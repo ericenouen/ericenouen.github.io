@@ -5,4 +5,8 @@ author_profile: true
 permalink: /PICSR/
 ---
 
-This research project was as part of [RISS](https://riss.ri.cmu.edu/) (Robotics Institute of Summer Scholars) under Sebastian Caldas and Artur Dubrawski from the Auton Lab.
+This research project was done as part of [RISS](https://riss.ri.cmu.edu/) (Robotics Institute of Summer Scholars) under Sebastian Caldas and Artur Dubrawski from the Auton Lab.
+
+![Here](https://drive.google.com/file/d/1uo0kaH2CR5_nYdmcL2XoanRzgcTyn7u_/view?usp=sharing) is a link to the paper.
+![Here](https://drive.google.com/file/d/1krIOFwCzxOISIc1TfTYx2QV9pk8GTIfb/view?usp=sharing) is a link to the poster.
+![Here](https://drive.google.com/file/d/1SbfAWetTKCY7mHq3tg64QeFw200JQXop/view?usp=sharing) is a link to the video.
