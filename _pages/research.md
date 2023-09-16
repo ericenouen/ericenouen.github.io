@@ -34,7 +34,7 @@ div.container {
 I worked under Artur Dubrawski on a federated learning approach that provides better explanations for stakeholders. We introduce Prototype-Informed Cross-Silo Router (PICSR) which utilizes a mixture of experts approach to combine local models derived from multiple silos. By utilizing a router to select the best silo for each sample, we can analyze in more detail the differences among institutions. Additionally, we directly embed the decision process in a sample's similarity to a prototype (mean sample) initialized from each silo.
 
 <div>
-<img src="https://github.com/ericenouen/ericenouen.github.io/blob/master/assets/image/PICSR_CoreAlgorithm.pdf?raw=true" alt="Description of the full algorithm for PICSR">
+<img src="https://github.com/ericenouen/ericenouen.github.io/blob/master/assets/image/PICSR_CoreAlgorithm.png?raw=true" alt="Description of the full algorithm for PICSR">
 </div>
  
 </p></div>
@@ -69,7 +69,7 @@ This <a href="https://www.cs.purdue.edu/homes/lintan/publications/disguide-aaai2
 I worked under Sihong Xie on a multi-objective optimization method for fair graphical models, that balanced performance metric(s) simultaneously with fairness metric(s) to find the tradeoff curve of solutions, called the pareto front.
 
 <div>
-<img src="https://github.com/ericenouen/ericenouen.github.io/blob/master/assets/image/ParetoFront.svg?raw=true" alt="Pareto Front">
+<img src="https://github.com/ericenouen/ericenouen.github.io/blob/master/assets/image/Lehigh_Pareto.png?raw=true" alt="Pareto Front">
 </div>
 
 Previous methods maintain a list of solutions to optimize together towards the pareto front, however, we utilized a <a href="https://arxiv.org/abs/2006.16434">predictor-corrector method</a> to more efficiently explore the pareto front by starting from one optimal point and generating new pareto optimal solutions from it.
