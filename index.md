@@ -4,7 +4,7 @@ author_profile: true
 title: About Me
 ---
 
-I'm a fourth year undergraduate at The Ohio State University studying Computer Science with a specialization in Artificial Intelligence. I love learning about the field of AI in any way I can, and love tackling hard research problems to find a solution.
+I'm a fourth year undergraduate at The Ohio State University studying Computer Science with a specialization in Artificial Intelligence. I love learning about the field of AI in any way I can, and tackling hard research problems to find a solution.
 
 My research has focused on **trustworthy machine learning**. There are many pillars underlying the goal of trustworthy ML: fairness, security, explainability, robustness, and responsibility. Improving on these core principles will be crucial for creating systems that benefit the society they are deployed in.
 
