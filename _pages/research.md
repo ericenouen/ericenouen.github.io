@@ -31,7 +31,12 @@ div.container {
 <p class="alignright"><span style="color:#000000">June 2023 - Present</span></p>
 <div style="clear: both;"></div>
 <p style='margin-left:1em;'>
-I worked with Artur Dubrawski and Sebastian Caldas on explainable federated learning in a healthcare setting.
+I worked under Artur Dubrawski on a federated learning approach that provides better explanations for stakeholders. We introduce Prototype-Informed Cross-Silo Router (PICSR) which utilizes a mixture of experts approach to combine local models derived from multiple silos. By utilizing a router to select the best silo for each sample, we can analyze in more detail the differences among institutions. Additionally, we directly embed the decision process in a sample's similarity to a prototype (mean sample) initialized from each silo.
+
+<div>
+<img src="https://github.com/ericenouen/ericenouen.github.io/blob/master/assets/image/PICSR_CoreAlgorithm.pdf?raw=true" alt="Description of the full algorithm for PICSR">
+</div>
+ 
 </p></div>
 <br>
 
@@ -45,7 +50,7 @@ I worked with Artur Dubrawski and Sebastian Caldas on explainable federated lear
 Under the supervision of Lin Tan, I worked on developing a data-free model extraction attack, which attempts to copy the functionality of a black-box <em>victim</em> model into a <em>clone</em> model through a query interface. This clone model can be used for both avoiding paying per query as well as staging further adversarial attacks, and can even be used to extract training data from the victim model.
 
 <div>
-<img src="https://github.com/ericenouen/ericenouen.github.io/blob/master/assets/image/Disguide.svg?raw=true" alt="Description of the full algorithm">
+<img src="https://github.com/ericenouen/ericenouen.github.io/blob/master/assets/image/Disguide.svg?raw=true" alt="Description of the full algorithm for DisGUIDE">
 </div>
 
 Prior work used a generator to synthetically create samples to teach the clone model to better match the victim. However, they used a gradient estimation method on the victim model to train the generator. We introduced a novel loss that utilized two different clone models and maximized the disagreement between them to find better samples to query the victim model with. We were able to improve both the query efficiency and final accuracy of previous work by a significant margin.
