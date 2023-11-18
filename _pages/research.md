@@ -28,10 +28,24 @@ div.container {
 
 <div class="polaroid" style='background-color:#C41230; color: #FFFFFF; border-left: solid #000000 4px; border-radius: 4px; padding:0.7em;'>
 <p class="alignleft"><b>Carnegie Mellon University</b></p>
-<p class="alignright"><span style="color:#000000">June 2023 - Present</span></p>
+<p class="alignright"><span style="color:#000000">August 2023 - Present</span></p>
 <div style="clear: both;"></div>
 <p style='margin-left:1em;'>
-I worked under Artur Dubrawski on a federated learning approach that provides better explanations for stakeholders. We introduce Prototype-Informed Cross-Silo Router (PICSR) which utilizes a mixture of experts approach to combine local models derived from multiple silos. By utilizing a router to select the best silo for each sample, we can analyze in more detail the differences among institutions. Additionally, we directly embed the decision process in a sample's similarity to a prototype (mean sample) initialized from each silo.
+I continued my work under Artur Dubrawski to present a more general approach combining the interpretability of prototype-based classification methods with Mixture of Experts. By treating the expert specialization problem as a misalignment between the subtasks that the gating function learns and human intuition, we can directly improve the task decomposition of the gating function by increasing the transparency of its decision process. This work is currently under review.
+
+<div>
+<img src="https://github.com/ericenouen/ericenouen.github.io/blob/master/assets/image/ProtoMoE.svg?raw=true" alt="Full algorithm for ProtoMoE">
+</div>
+ 
+</p></div>
+<br>
+
+<div class="polaroid" style='background-color:#C41230; color: #FFFFFF; border-left: solid #000000 4px; border-radius: 4px; padding:0.7em;'>
+<p class="alignleft"><b>Carnegie Mellon University</b></p>
+<p class="alignright"><span style="color:#000000">June 2023 - August 2023</span></p>
+<div style="clear: both;"></div>
+<p style='margin-left:1em;'>
+I worked under Artur Dubrawski on a federated learning approach that provides better explanations for stakeholders. We introduce Prototype-Informed Cross-Silo Router (PICSR) which utilizes a mixture of experts approach to combine local models derived from multiple silos. By utilizing a router to select the best silo for each sample, we can analyze in more detail the differences among institutions. Additionally, we directly embed the decision process in a sample's similarity to a prototype (mean sample) initialized from each silo. This paper was accepted at AAAI 2024's Student Abstract Track.
 
 <div>
 <img src="https://github.com/ericenouen/ericenouen.github.io/blob/master/assets/image/PICSR_CoreAlgorithm.png?raw=true" alt="Description of the full algorithm for PICSR">
