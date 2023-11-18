@@ -45,7 +45,7 @@ I continued my work under Artur Dubrawski to present a more general approach com
 <p class="alignright"><span style="color:#000000">June 2023 - August 2023</span></p>
 <div style="clear: both;"></div>
 <p style='margin-left:1em;'>
-I worked under Artur Dubrawski on a federated learning approach that provides better explanations for stakeholders. We introduce Prototype-Informed Cross-Silo Router (PICSR) which utilizes a mixture of experts approach to combine local models derived from multiple silos. By utilizing a router to select the best silo for each sample, we can analyze in more detail the differences among institutions. Additionally, we directly embed the decision process in a sample's similarity to a prototype (mean sample) initialized from each silo. This paper was accepted at AAAI 2024's Student Abstract Track.
+I worked under Artur Dubrawski on a federated learning approach that provides better explanations for stakeholders. We introduce Prototype-Informed Cross-Silo Router (PICSR) which utilizes a mixture of experts approach to combine local models derived from multiple silos. By utilizing a router to select the best silo for each sample, we can analyze in more detail the differences among institutions. Additionally, we directly embed the decision process in a sample's similarity to a prototype (mean sample) initialized from each silo. This paper was accepted to AAAI 2024's Student Abstract Track.
 
 <div>
 <img src="https://github.com/ericenouen/ericenouen.github.io/blob/master/assets/image/PICSR_CoreAlgorithm.png?raw=true" alt="Description of the full algorithm for PICSR">
