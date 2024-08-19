@@ -106,8 +106,8 @@ analytics:
 author:
   name             : "Eric Enouen"
   avatar           : "/assets/image/EricProfile.jpg"
-  bio              : "Undergraduate Student studying CS with an AI focus"
-  location         : "Columbus, Ohio"
+  bio              : "CS PhD - Cornell"
+  location         : "Ithaca, New York"
   email            :
   links:
     - label: "Email"
@@ -115,7 +115,7 @@ author:
       url: "mailto:erenouen@gmail.com"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/eric-enouen-b3aa8718a/"
+      url: "https://www.linkedin.com/in/ericenouen"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/ericenouen"
