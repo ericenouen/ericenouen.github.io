@@ -22,7 +22,7 @@ permalink: /research/
 ### 2022
 <ul>
   <li>
-  Eric Enouen, Katja Mathesius, Sean Wang, Arielle Carr, Sihong Xie
+  Eric Enouen*, Katja Mathesius*, Sean Wang*, Arielle Carr, Sihong Xie
   <dd><b>Efficient Multiple Objective Optimization for Fair Misinformation Detection</b></dd>
   <dd>2022 IEEE International Conference on Big Data</dd>
   </li>
