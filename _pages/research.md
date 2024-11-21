@@ -7,9 +7,9 @@ permalink: /research/
 
 ## Publications
 
-### 2024
+<!-- ### 2024 -->
 
-### 2023
+<!-- ### 2022 -->
 <ul>
   <li>
   Jonathan Rosenthal, Eric Enouen, Hung Viet Pham, Lin Tan
@@ -19,7 +19,7 @@ permalink: /research/
 </ul>
 <p></p>
 
-### 2022
+<!-- ### 2022 -->
 <ul>
   <li>
   Eric Enouen*, Katja Mathesius*, Sean Wang*, Arielle Carr, Sihong Xie
