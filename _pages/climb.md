@@ -5,7 +5,7 @@ author_profile: true
 permalink: /climb/
 ---
 
-I like to climb rocks! I mainly boulder but do some sport climbing as well. Here are a couple of pictures from some trips to Moab, Rumney Rocks, Red River Gorge, and Hueco Tanks.
+I like to climb rocks! I mainly boulder but do some sport climbing as well. Here are a couple of pictures from some trips to Moab, Rumney Rocks, Red River Gorge, Hueco Tanks, and Joe's Valley.
 
 <html>
 <head>
@@ -98,33 +98,38 @@ img {vertical-align: top;}
 <div class="slideshow-container">
 
 <div class="mySlides fade">
-  <div class="numbertext">1 / 6</div>
+  <div class="numbertext">1 / 7</div>
   <img src="https://github.com/ericenouen/ericenouen.github.io/blob/master/assets/image/moabbelay.jpg?raw=true" class="img-container">
 </div>
 
 <div class="mySlides fade">
-  <div class="numbertext">2 / 6</div>
+  <div class="numbertext">2 / 7</div>
   <img src="https://github.com/ericenouen/ericenouen.github.io/blob/master/assets/image/moabclimb.jpg?raw=true" class="img-container">
 </div>
 
 <div class="mySlides fade">
-  <div class="numbertext">3 / 6</div>
+  <div class="numbertext">3 / 7</div>
   <img src="https://github.com/ericenouen/ericenouen.github.io/blob/master/assets/image/rumney1.jpg?raw=true" class="img-container">
 </div>
 
 <div class="mySlides fade">
-  <div class="numbertext">4 / 6</div>
+  <div class="numbertext">4 / 7</div>
   <img src="https://github.com/ericenouen/ericenouen.github.io/blob/master/assets/image/rumney2.jpg?raw=true" class="img-container">
 </div>
 
 <div class="mySlides fade">
-  <div class="numbertext">5 / 6</div>
+  <div class="numbertext">5 / 7</div>
   <img src="https://github.com/ericenouen/ericenouen.github.io/blob/master/assets/image/rrg.jpg?raw=true" class="img-container">
 </div>
 
 <div class="mySlides fade">
-  <div class="numbertext">6 / 6</div>
+  <div class="numbertext">6 / 7</div>
   <img src="https://github.com/ericenouen/ericenouen.github.io/blob/master/assets/image/hueco.JPG?raw=true" class="img-container">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">7 / 7</div>
+  <img src="https://github.com/ericenouen/ericenouen.github.io/blob/master/assets/image/JoesAngler.png?raw=true" class="img-container">
 </div>
 
 <a class="prev" onclick="plusSlides(-1)">❮</a>
@@ -140,6 +145,7 @@ img {vertical-align: top;}
   <span class="dot" onclick="currentSlide(4)"></span> 
   <span class="dot" onclick="currentSlide(5)"></span> 
   <span class="dot" onclick="currentSlide(6)"></span> 
+  <span class="dot" onclick="currentSlide(7)"></span> 
 </div>
 
 <script>
