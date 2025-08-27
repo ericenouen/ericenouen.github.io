@@ -1,14 +1,22 @@
 ---
 layout: default
 ---
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/45a11903-3fd5-49fd-8ce5-775dfe298102" alt="CBDebug Logo" width="500"/>
+</p>
 
-# **Debugging Concept Bottleneck Models through Removal and Retraining**
+<div align="center">
+    <h1>Debugging Concept Bottleneck Models through Removal and Retraining</h1>
+    <h3><a href="https://ericenouen.github.io/">Eric Enouen</a>, <a href="https://sainyamgalhotra.com/">Sainyam Galhotra</a></h3>
+    <h4>Cornell University</h4>
+</div>
 
-!
 
-[A concise, impactful sentence summarizing the project and its key contribution.]
+{% include button.html href="[Link to your paper's PDF]" text="Paper" style="info" icon="fas fa-file-alt" %}
 
----
+{% include button.html href="[Link to your code on GitHub]" text="Code" style="default" icon="fas fa-code" %}
+
+{% include button.html href="[Link to a demo or examples page]" text="Examples" style="default" icon="fas fa-images" %}
 
 ## **Abstract**
 
@@ -16,27 +24,41 @@ layout: default
 
 ---
 
-## **Key Contributions**
-
-* **[Contribution 1]** (e.g., A novel method for incorporating interpretability into model design.)
-* **[Contribution 2]** (e.g., A new evaluation metric for assessing interpretability and information leakage.)
-* **[Contribution 3]** (e.g., State-of-the-art results on benchmark datasets, demonstrating the practical benefits of your approach.)
+## **Concept Bottleneck Debugging Framework**
 
 ---
 
-## **Paper**
+## **CBDebug**
 
-**Debugging Concept Bottleneck Models through Removal and Retraining**
-[Author 1], [Author 2], and [Author 3]
-*Conference/Journal Name (Year)*
+<p align="center">
+  <img src="assets/CBDebug.png" alt="CBDebug Main Figure" width="800"/>
+</p>
 
-[[PDF]](Link to your PDF) &nbsp; [[arXiv]](Link to your arXiv page) &nbsp; [[BibTeX]](Link to a `.bib` file)
+**CBDebug (Concept Bottleneck Debugger)** is a framework for debugging concept bottleneck models using human feedback. A domain expert first identifies and removes spurious concepts learned by the model, then CBDebug retrains the model based on this feedback using a reweighting and augmentation scheme to force the model to rely on more robust, meaningful concepts.
+
+With our data balancing scheme, we can effectively retrain the model based on user feedback to remove reliance on spurious correlations and replace those with more robust concepts for the classification task.
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/025e449a-490d-4000-af02-8c22c211a3d9" alt="cbdebug_results" width="600"/>
+</p>
 
 ---
 
-## **Demonstration / Gallery**
+---
 
-Visuals are critical for these pages. This section should include:
+## **Experiments**
 
-* ****: A side-by-side comparison of a standard black-box model and your CBM, showing the interpretable concepts.
-* ****: A graph showing how your method's performance compares to other baselines. This is a chance to highlight key metrics from your paper.
+---
+
+## **Conclusion**
+
+---
+
+## **Cite this Work**
+```bibtex
+@inproceedings{enouendebugging,
+  title={Debugging Concept Bottlenecks through Intervention: Shortcut Removal and Retraining},
+  author={Enouen, Eric and Galhotra, Sainyam},
+  booktitle={Workshop on Spurious Correlation and Shortcut Learning: Foundations and Solutions}
+}
+```
