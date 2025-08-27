@@ -5,14 +5,17 @@ author_profile: true
 permalink: /research/
 ---
 
-## Publications
-
+## In Preparation
 <ul>
   <li>
   Eric Enouen, Sainyam Galhotra
   <dd><b>Debugging Concept Bottlenecks through Intervention: Shortcut Removal and Retraining</b></dd>
   <dd>2025 ICLR Workshop on Spurious Correlation and Shortcut Learning</dd>
   </li>
+</ul>
+
+## Publications
+<ul>
   <li>
   Jonathan Rosenthal, Eric Enouen, Hung Viet Pham, Lin Tan
   <dd><b>DisGUIDE: Disagreement-Guided Data-Free Model Extraction</b></dd>
