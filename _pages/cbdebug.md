@@ -4,7 +4,7 @@ permalink: /cbdebug/
 hide_masthead: true
 ---
 <p align="center">
-  <img src="assets/image/cbdebug/CBDebugLogo.png" alt="CBDebug Logo" width="500"/>
+  <img src="/assets/image/cbdebug/CBDebugLogo.png" alt="CBDebug Logo" width="500"/>
 </p>
 
 <div align="center">
@@ -33,7 +33,7 @@ hide_masthead: true
 ## **CBDebug**
 
 <p align="center">
-  <img src="assets/image/cbdebug/CBDebugMethod.png" alt="CBDebug Main Figure" width="800"/>
+  <img src="/assets/image/cbdebug/CBDebugMethod.png" alt="CBDebug Main Figure" width="800"/>
 </p>
 
 **CBDebug (Concept Bottleneck Debugger)** is a framework for debugging concept bottleneck models using human feedback. A domain expert first identifies and removes spurious concepts learned by the model, then CBDebug retrains the model based on this feedback using a reweighting and augmentation scheme to force the model to rely on more robust, meaningful concepts.
@@ -41,7 +41,7 @@ hide_masthead: true
 With our data balancing scheme, we can effectively retrain the model based on user feedback to remove reliance on spurious correlations and replace those with more robust concepts for the classification task.
 
 <p align="center">
-  <img src="assets/image/cbdebug/CBDebugResults.png" alt="cbdebug_results" width="600"/>
+  <img src="/assets/image/cbdebug/CBDebugResults.png" alt="cbdebug_results" width="600"/>
 </p>
 
 ---
