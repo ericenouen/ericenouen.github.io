@@ -53,6 +53,14 @@ Overview of `CBDebug` (Concept Bottleneck Debugger), which consists of three mai
 
 We show improved worst-group accuracy across popular subpopulation shift datasets, with both real and automated feedback.
 
+<p align="center">
+  <img src="/assets/image/cbdebug/CBDebugMainResults.png" alt="cbdebug user results" width="600"/>
+</p>
+
+<p align="center">
+  <img src="/assets/image/cbdebug/CBDebugAutoResults.png" alt="cbdebug auto results" width="600"/>
+</p>
+
 With our data balancing scheme, we can effectively retrain the model based on user feedback to remove reliance on spurious correlations and replace those with more robust concepts for the classification task.
 
 <p align="center">
