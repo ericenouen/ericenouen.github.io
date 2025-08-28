@@ -53,6 +53,7 @@ With our data balancing scheme, we can effectively retrain the model based on us
 <p align="center">
   <img src="/assets/image/cbdebug/CBDebugResults.png" alt="cbdebug_results" width="600"/>
 </p>
+
 ---
 
 ## **Conclusion**
