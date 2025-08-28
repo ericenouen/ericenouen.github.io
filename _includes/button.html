@@ -1,0 +1,6 @@
+<a href="{{ include.url | relative_url }}" class="custom-btn {{ include.class | default: '' }}" target="_blank" rel="noopener">
+  {% if include.icon %}
+    <i class="{{ include.icon }}"></i>
+  {% endif %}
+  {{ include.label }}
+</a>
