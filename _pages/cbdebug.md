@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: single
 permalink: /cbdebug/
 hide_masthead: true
 ---
