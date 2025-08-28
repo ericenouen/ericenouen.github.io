@@ -1,4 +1,6 @@
 ---
+name: true
+title: false
 layout: default
 permalink: /cbdebug/
 hide_header: true
