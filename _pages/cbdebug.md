@@ -41,18 +41,18 @@ hide_masthead: true
 
 **CBDebug (Concept Bottleneck Debugger)** is a framework for debugging concept bottleneck models using human feedback. A domain expert first identifies and removes spurious concepts learned by the model, then CBDebug retrains the model based on this feedback using a reweighting and augmentation scheme to force the model to rely on more robust, meaningful concepts.
 
-With our data balancing scheme, we can effectively retrain the model based on user feedback to remove reliance on spurious correlations and replace those with more robust concepts for the classification task.
-
-<p align="center">
-  <img src="/assets/image/cbdebug/CBDebugResults.png" alt="cbdebug_results" width="600"/>
-</p>
-
 ---
 
 ---
 
 ## **Experiments**
 
+
+With our data balancing scheme, we can effectively retrain the model based on user feedback to remove reliance on spurious correlations and replace those with more robust concepts for the classification task.
+
+<p align="center">
+  <img src="/assets/image/cbdebug/CBDebugResults.png" alt="cbdebug_results" width="600"/>
+</p>
 ---
 
 ## **Conclusion**
