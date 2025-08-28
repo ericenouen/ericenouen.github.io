@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /cbdebug/
 ---
 <p align="center">
   <img src="https://github.com/user-attachments/assets/45a11903-3fd5-49fd-8ce5-775dfe298102" alt="CBDebug Logo" width="500"/>
