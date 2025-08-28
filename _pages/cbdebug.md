@@ -27,6 +27,9 @@ hide_masthead: true
 ---
 
 ## **Concept Bottleneck Debugging Framework**
+<p align="center">
+  <img src="/assets/image/cbdebug/CBDebugRemovalRetrain.png" alt="Removal Retrain Figure" width="800"/>
+</p>
 
 ---
 
