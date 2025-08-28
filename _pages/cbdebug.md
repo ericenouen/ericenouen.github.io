@@ -62,6 +62,9 @@ With our data balancing scheme, we can effectively retrain the model based on us
 ---
 
 ## **Conclusion**
+- We present an interpretable debugging framework for CBMs, extending prior frameworks to a more general architecture and enabling domain experts to globally edit model reasoning.
+- We introduce `CBDebug`, a retraining approach that first approximates sample-level auxiliary labels from concept-level feedback, then reweights and augments the dataset to reduce reliance on undesired concepts and better align the model with expert reasoning.
+- We validate our framework across multiple CBMs (PIP-Net, Post-hoc CBM) and datasets with known spurious correlations (Waterbirds, Metashift, CelebA). `CBDebug` most effectively leverages user feedback on spurious concepts, outperforming prior work on ProtoPNets and improving worst-group accuracy by up to 26% over the original model, with strong results even when feedback is automated with an LLM.
 
 ---
 
