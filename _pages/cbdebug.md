@@ -16,13 +16,13 @@ hide_masthead: true
 
 <!--{% include button.html href="[Link to your paper's PDF]" text="Paper" style="info" icon="fas fa-file-alt" %}-->
 
-{% include button.html url="https://github.com/ericenouen/interpdebug" label="Code" class="default" icon="fas fa-code" %}
+<!--{% include button.html url="https://github.com/ericenouen/interpdebug" label="Code" class="default" icon="fas fa-code" %}-->
 
 <!--{% include button.html href="[Link to a demo or examples page]" text="Examples" style="default" icon="fas fa-images" %}-->
 
 ## **Abstract**
 
-[A short, one-paragraph abstract that explains the problem, your proposed solution (using your CBM), and the main results. This is often the same as the paper's abstract.]
+Concept Bottleneck Models (CBMs) use a set of human-interpretable concepts to predict the final task label, enabling domain experts to not only validate the CBM's predictions, but also intervene on incorrect concepts at test time. However, these interventions fail to address systemic misalignment between the CBM and the expert's reasoning, such as when the model learns shortcuts from biased data. To address this, we present a general interpretable debugging framework for CBMs that follows a two-step process of *Removal* and *Retraining*. In the *Removal* step, experts use concept explanations to identify and remove any undesired concepts. In the *Retraining* step, we introduce `CBDebug`, a novel method that leverages the interpretability of CBMs as a bridge for converting concept-level user feedback into sample-level auxiliary labels. These labels are then used to apply supervised bias mitigation and targeted augmentation, reducing the model’s reliance on undesired concepts. We evaluate our framework with both real and automated expert feedback, and find that `CBDebug` significantly outperforms prior retraining methods across multiple CBM architectures (PIP-Net, Post-hoc CBM) and benchmarks with known spurious correlations (Waterbirds, MetaShift, CelebA).
 
 ---
 
@@ -30,6 +30,12 @@ hide_masthead: true
 <p align="center">
   <img src="/assets/image/cbdebug/CBDebugRemovalRetrain.png" alt="Removal Retrain Figure" width="800"/>
 </p>
+
+Our debugging framework incorporates a domain expert’s knowledge into a concept bottleneck. 
+
+**Removal:** The user inspects concept explanations and selects undesired concepts to remove, such as background concepts in bird classification. 
+
+**Retraining:** The concept extractor and inference layer are retrained based on this feedback, updating the CBM to remove dependence on undesired concepts while maintaining reliance on task-relevant concepts.
 
 ---
 
@@ -39,14 +45,13 @@ hide_masthead: true
   <img src="/assets/image/cbdebug/CBDebugMethod.png" alt="CBDebug Main Figure" width="800"/>
 </p>
 
-**CBDebug (Concept Bottleneck Debugger)** is a framework for debugging concept bottleneck models using human feedback. A domain expert first identifies and removes spurious concepts learned by the model, then CBDebug retrains the model based on this feedback using a reweighting and augmentation scheme to force the model to rely on more robust, meaningful concepts.
-
----
+Overview of `CBDebug` (Concept Bottleneck Debugger), which consists of three main steps. First, the encoder $\phi$ computes the concept activations for undesired concepts in $\texttt{spurious}$ to generate the approximated auxiliary label $\hat{\mathbf{V}}$. Second, permutation weighting utilizes $\hat{\mathbf{V}}$ and the class label $\mathbf{Y}$ to compute the odds of the sample being drawn from the unconfounded distribution, generating weights $\mathbf{U}$. Third, augmentation is performed on $\mathbf{X}$ based on the undesired concepts $\texttt{spurious}$ and weights $\mathbf{U}$ to generate $\mathbf{X}_{\text{aug}}$. Finally, we retrain $\{\phi, h\}$ on $(\mathbf{X}_{\text{aug}}, \mathbf{Y})$ weighted by $\mathbf{U}$ and return $\{\phi', h'\}$.
 
 ---
 
 ## **Experiments**
 
+We show improved worst-group accuracy across popular subpopulation shift datasets, with both real and automated feedback.
 
 With our data balancing scheme, we can effectively retrain the model based on user feedback to remove reliance on spurious correlations and replace those with more robust concepts for the classification task.
 
