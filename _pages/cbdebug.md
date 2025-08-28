@@ -14,11 +14,11 @@ hide_masthead: true
 </div>
 
 
-{% include button.html href="[Link to your paper's PDF]" text="Paper" style="info" icon="fas fa-file-alt" %}
+<!--{% include button.html href="[Link to your paper's PDF]" text="Paper" style="info" icon="fas fa-file-alt" %}-->
 
-{% include button.html href="[Link to your code on GitHub]" text="Code" style="default" icon="fas fa-code" %}
+{% include button.html href="https://github.com/ericenouen/interpdebug" text="Code" style="default" icon="fas fa-code" %}
 
-{% include button.html href="[Link to a demo or examples page]" text="Examples" style="default" icon="fas fa-images" %}
+<!--{% include button.html href="[Link to a demo or examples page]" text="Examples" style="default" icon="fas fa-images" %}-->
 
 ## **Abstract**
 
