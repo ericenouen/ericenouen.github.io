@@ -45,7 +45,7 @@ Our debugging framework incorporates a domain expert’s knowledge into a concep
   <img src="/assets/image/cbdebug/CBDebugMethod.png" alt="CBDebug Main Figure" width="800"/>
 </p>
 
-Overview of `CBDebug` (Concept Bottleneck Debugger), which consists of three main steps. First, the encoder \( \phi \) computes the concept activations for undesired concepts in \( \texttt{spurious} \) to generate the approximated auxiliary label \( \hat{\mathbf{V}} \). Second, permutation weighting utilizes \( \hat{\mathbf{V}} \) and the class label \( \mathbf{Y} \) to compute the odds of the sample being drawn from the unconfounded distribution, generating weights \( \mathbf{U} \). Third, augmentation is performed on \( \mathbf{X} \) based on the undesired concepts \( \texttt{spurious} \) and weights \( \mathbf{U} \) to generate \( \mathbf{X}_{\text{aug}} \). Finally, we retrain \( \{\phi, h\} \) on \( (\mathbf{X}_{\text{aug}}, \mathbf{Y}) \) weighted by \( \mathbf{U} \) and return \( \{\phi', h'\} \).
+Overview of `CBDebug` (Concept Bottleneck Debugger), which consists of three main steps. First, the encoder $\phi$ computes the concept activations for undesired concepts in $\texttt{spurious}$ to generate the approximated auxiliary label $\hat{\mathbf{V}}$. Second, permutation weighting utilizes $\hat{\mathbf{V}}$ and the class label $\mathbf{Y}$ to compute the odds of the sample being drawn from the unconfounded distribution, generating weights $\mathbf{U}$. Third, augmentation is performed on $\mathbf{X}$ based on the undesired concepts $\texttt{spurious}$ and weights $\mathbf{U}$ to generate $\mathbf{X}{\text{aug}}$. Finally, we retrain ${\phi, h}$ on $(\mathbf{X}{\text{aug}}, \mathbf{Y})$ weighted by $\mathbf{U}$ and return ${\phi', h'}$.
 
 ---
 
