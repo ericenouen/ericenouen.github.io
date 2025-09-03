@@ -11,6 +11,7 @@ hide_masthead: true
     <h1>Debugging Concept Bottleneck Models through Removal and Retraining</h1>
     <h3><a href="https://ericenouen.github.io/">Eric Enouen</a>, <a href="https://sainyamgalhotra.com/">Sainyam Galhotra</a></h3>
     <h4>Cornell University</h4>
+    <h4><a href="https://openreview.net/pdf?id=KuHArH2mMQ">Paper</a></h4>
 </div>
 
 
