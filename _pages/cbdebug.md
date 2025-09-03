@@ -3,15 +3,16 @@ layout: single
 permalink: /cbdebug/
 hide_masthead: true
 ---
-<p align="center">
-  <a href="https://openreview.net/pdf?id=KuHArH2mMQ"><img src="/assets/image/cbdebug/CBDebugLogo.png" alt="CBDebug Logo" width="500"/></a>
-</p>
 
 <div align="center">
     <h1>Debugging Concept Bottleneck Models through Removal and Retraining</h1>
     <h3><a href="https://ericenouen.github.io/">Eric Enouen</a>, <a href="https://sainyamgalhotra.com/">Sainyam Galhotra</a></h3>
     <h4>Cornell University</h4>
 </div>
+
+<p align="center">
+  <a href="https://openreview.net/pdf?id=KuHArH2mMQ"><img src="/assets/image/cbdebug/CBDebugLogo.png" alt="CBDebug Logo" width="500"/></a>
+</p>
 
 
 <!--{% include button.html href="[Link to your paper's PDF]" text="Paper" style="info" icon="fas fa-file-alt" %}-->
