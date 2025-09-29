@@ -11,15 +11,24 @@ hide_masthead: true
 </div>
 
 <p align="center">
-  <a href="https://openreview.net/pdf?id=KuHArH2mMQ"><img src="/assets/image/cbdebug/CBDebugLogo.png" alt="CBDebug Logo" width="500"/></a>
+  <img src="/assets/image/cbdebug/CBDebugLogo.png" alt="CBDebug Logo" width="500"/>
 </p>
 
-
-<!--{% include button.html href="[Link to your paper's PDF]" text="Paper" style="info" icon="fas fa-file-alt" %}-->
-
-<!--{% include button.html url="https://github.com/ericenouen/interpdebug" label="Code" class="default" icon="fas fa-code" %}-->
-
-<!--{% include button.html href="[Link to a demo or examples page]" text="Examples" style="default" icon="fas fa-images" %}-->
+<a href="https://arxiv.org/abs/2509.21385" style="
+  background-color: #007bff;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 12px;
+  text-decoration: none;
+  font-size: 16px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 500;
+  font-family: sans-serif;
+">
+  Paper
+</a>
 
 ## **Abstract**
 
@@ -83,9 +92,10 @@ We also show qualitative results comparing `CBDebug` to baseline Retraining, sho
 
 ## **Cite this Work**
 ```bibtex
-@inproceedings{enouendebugging,
-  title={Debugging Concept Bottlenecks through Intervention: Shortcut Removal and Retraining},
+@article{enouendebugging,
+  title={Debugging Concept Bottleneck Models through Removal and Retraining},
   author={Enouen, Eric and Galhotra, Sainyam},
-  booktitle={Workshop on Spurious Correlation and Shortcut Learning: Foundations and Solutions}
+  journal={arXiv preprint arXiv:2509.21385},
+  year={2025}
 }
 ```
