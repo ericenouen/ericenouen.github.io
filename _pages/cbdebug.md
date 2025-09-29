@@ -14,21 +14,24 @@ hide_masthead: true
   <img src="/assets/image/cbdebug/CBDebugLogo.png" alt="CBDebug Logo" width="500"/>
 </p>
 
-<a href="https://arxiv.org/abs/2509.21385" style="
-  background-color: #007bff;
-  color: white;
-  padding: 12px 24px;
-  border-radius: 12px;
-  text-decoration: none;
-  font-size: 16px;
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  font-weight: 500;
-  font-family: sans-serif;
-">
-  Paper
-</a>
+
+<p align="center">
+    <a href="https://arxiv.org/abs/2509.21385" style="
+      background-color: #007bff;
+      color: white;
+      padding: 12px 24px;
+      border-radius: 12px;
+      text-decoration: none;
+      font-size: 16px;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-weight: 500;
+      font-family: sans-serif;
+    ">
+      Paper
+    </a>
+</p>
 
 ## **Abstract**
 
