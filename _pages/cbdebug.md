@@ -66,7 +66,7 @@ Overview of `CBDebug` (Concept Bottleneck Debugger), which consists of three mai
 
 ## **Experiments**
 
-We test our approach across PIP-Net and Post-hoc CBM, two popular CBM architectures, and benchmarks with known spurious correlations (Waterbirds, MetaShift, CelebA). We first explore real user feedback, showing that `CBDebug` greatly improves worst-group accuracy compared to baseline approaches.
+We test our approach across PIP-Net and Post-hoc CBM, two popular CBM architectures, and benchmarks with known spurious correlations. We first explore real user feedback, showing that `CBDebug` greatly improves worst-group accuracy compared to baseline approaches.
 
 <p align="center">
   <img src="/assets/image/cbdebug/CBDebugMainResults.png" alt="cbdebug user results" width="600"/>
@@ -89,7 +89,7 @@ We also show qualitative results comparing `CBDebug` to baseline Retraining, sho
 ## **Conclusion**
 - We present an interpretable debugging framework for CBMs, extending prior frameworks to a more general architecture and enabling domain experts to globally edit model reasoning.
 - We introduce `CBDebug`, a retraining approach that first approximates sample-level auxiliary labels from concept-level feedback, then reweights and augments the dataset to reduce reliance on undesired concepts and better align the model with expert reasoning.
-- We validate our framework across multiple CBMs (PIP-Net, Post-hoc CBM) and datasets with known spurious correlations (Waterbirds, Metashift, CelebA). `CBDebug` most effectively leverages user feedback on spurious concepts, outperforming prior work on ProtoPNets and improving worst-group accuracy by up to 26% over the original model, with strong results even when feedback is automated with an LLM.
+- We validate our framework across multiple CBMs (PIP-Net, Post-hoc CBM) and datasets with known spurious correlations. `CBDebug` most effectively leverages user feedback on spurious concepts, outperforming prior work on ProtoPNets and improving worst-group accuracy by up to 26% over the original model, with strong results even when feedback is automated with an LLM.
 
 ---
 
