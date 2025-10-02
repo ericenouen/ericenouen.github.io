@@ -9,7 +9,7 @@ permalink: /research/
 <ul>
   <li>
   Eric Enouen, Sainyam Galhotra
-  <dd><b>Debugging Concept Bottlenecks through Intervention: Shortcut Removal and Retraining</b></dd>
+  <dd><b><a href="https://ericenouen.github.io/cbdebug/">Debugging Concept Bottleneck Models through Removal and Retraining</a></b></dd>
   <dd>2025 ICLR Workshop on Spurious Correlation and Shortcut Learning</dd>
   </li>
 </ul>
