@@ -10,7 +10,7 @@ permalink: /research/
   <li>
   Eric Enouen, Sainyam Galhotra
   <dd><b><a href="https://ericenouen.github.io/cbdebug/">Debugging Concept Bottleneck Models through Removal and Retraining</a></b></dd>
-  <dd>2025 ICLR Workshop on Spurious Correlation and Shortcut Learning</dd>
+  <dd>Will be at the Workshop on Regulatable ML @ NeurIPS 2025</dd>
   </li>
 </ul>
 
