@@ -124,7 +124,7 @@ author:
       url: "https://scholar.google.com/citations?hl=en&user=vAwQ8aAAAAAJ&view_op=list_works&sortby=pubdate"
     - label: "CV"
       icon: "fas fa-fw fa-file-pdf"
-      url: "/assets/CV.pdf"
+      url: "/assets/Enouen_CV.pdf"
       target: "_blank"
 
 # # Site Footer
