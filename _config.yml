@@ -121,7 +121,7 @@ author:
       url: "https://github.com/ericenouen"
     - label: "Scholar"
       icon: "fas fa-fw fa-graduation-cap"
-      url: "https://scholar.google.com/citations?user=vAwQ8aAAAAAJ&hl=en"
+      url: "https://scholar.google.com/citations?hl=en&user=vAwQ8aAAAAAJ&view_op=list_works&sortby=pubdate"
 
 # # Site Footer
 # footer:
