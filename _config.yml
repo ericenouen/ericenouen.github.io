@@ -122,6 +122,10 @@ author:
     - label: "Scholar"
       icon: "fas fa-fw fa-graduation-cap"
       url: "https://scholar.google.com/citations?hl=en&user=vAwQ8aAAAAAJ&view_op=list_works&sortby=pubdate"
+    - label: "CV"
+      icon: "fas fa-fw fa-file-pdf"
+      url: "/assets/CV.pdf"
+      target: "_blank"
 
 # # Site Footer
 # footer:
