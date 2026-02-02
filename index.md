@@ -26,5 +26,3 @@ I am broadly interested in responsible machine learning, with a particular focus
 - **Efficient Multiple Objective Optimization for Fair Misinformation Detection**  
   Eric Enouen\*, Katja Mathesius\*, Sean Wang\*, Arielle Carr, Sihong Xie  
   *IEEE Big Data 2022*
-
-\* Equal contribution
