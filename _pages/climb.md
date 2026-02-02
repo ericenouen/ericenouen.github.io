@@ -1,8 +1,8 @@
 ---
 layout: home
-title: "Climbing"
+title: "Fun"
 author_profile: true
-permalink: /climb/
+permalink: /fun/
 ---
 
 I like to climb rocks! I mainly boulder but do some sport climbing as well. Here are a couple of pictures from some trips to Moab, Rumney Rocks, Red River Gorge, Hueco Tanks, and Joe's Valley.
