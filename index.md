@@ -11,7 +11,8 @@ I am broadly interested in responsible machine learning, with a particular focus
 ## In Preparation
 
 - **Concept Bottleneck Diffusion for Steerable Generation**  
-  Eric Enouen, Sainyam Galhotra
+  Eric Enouen, Sainyam Galhotra  
+  *UCRL Workshop @ ICLR 2026*
 
 ## Publications
 
@@ -26,3 +27,9 @@ I am broadly interested in responsible machine learning, with a particular focus
 - **Efficient Multiple Objective Optimization for Fair Misinformation Detection**  
   Eric Enouen\*, Katja Mathesius\*, Sean Wang\*, Arielle Carr, Sihong Xie  
   *IEEE Big Data 2022*
+
+## News
+- Excited to present both CBDebug and CBDiffuse at ICLR this April! Please reach out if you’ll be at the conference and want to chat.
+- Presented at the EnCORE Workshop on Interpretability in Modern AI, UC San Diego (Feb 2026)
+- Awarded the 2025–2026 Bowers CIS–LinkedIn Fellowship (Aug 2025)
+- Started PhD in Computer Science at Cornell University (Aug 2024)
