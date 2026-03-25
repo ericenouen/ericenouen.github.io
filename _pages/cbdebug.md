@@ -31,6 +31,22 @@ hide_masthead: true
     ">
       Paper
     </a>
+    <a href="https://github.com/ericenouen/cbdebug" style="
+      background-color: #28a745;
+      color: white;
+      padding: 12px 24px;
+      border-radius: 12px;
+      text-decoration: none;
+      font-size: 16px;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-weight: 500;
+      font-family: sans-serif;
+      margin-left: 12px;
+    ">
+      Code
+    </a>
 </p>
 
 ## **Abstract**
@@ -95,10 +111,10 @@ We also show qualitative results comparing `CBDebug` to baseline Retraining, sho
 
 ## **Cite this Work**
 ```bibtex
-@article{enouendebugging,
+@inproceedings{enouen26debug,
   title={Debugging Concept Bottleneck Models through Removal and Retraining},
   author={Enouen, Eric and Galhotra, Sainyam},
-  journal={arXiv preprint arXiv:2509.21385},
-  year={2025}
+  booktitle={ICLR},
+  year={2026},
 }
 ```
