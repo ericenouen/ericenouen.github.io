@@ -8,13 +8,11 @@ I'm a second year PhD student at Cornell University studying Computer Science, a
 
 I am broadly interested in responsible machine learning, with a particular focus on how incorporating interpretability into the model design process can provide leverage on broader sociotechnical challenges such as fairness, robustness, and accountability.
 
-## In Preparation
+## Research
 
 - **Concept Bottleneck Diffusion for Steerable Generation**  
   Eric Enouen, Sainyam Galhotra  
   *UCRL Workshop @ ICLR 2026*
-
-## Publications
 
 - **[Debugging Concept Bottleneck Models through Removal and Retraining](https://ericenouen.github.io/cbdebug/)**  
   Eric Enouen, Sainyam Galhotra  
