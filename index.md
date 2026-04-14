@@ -10,7 +10,7 @@ I am broadly interested in responsible machine learning, with a particular focus
 
 ## Research
 
-- **Concept Bottleneck Diffusion for Steerable Generation**  
+- **[Concept Bottleneck Diffusion for Steerable Generation](https://openreview.net/forum?id=yP7ReFvRGN)**  
   Eric Enouen, Sainyam Galhotra  
   *UCRL Workshop @ ICLR 2026*
 
