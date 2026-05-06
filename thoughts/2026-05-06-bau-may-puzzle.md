@@ -9,6 +9,10 @@ toc_sticky: true
 permalink: /thoughts/bau-may-puzzle/
 ---
 
+.page__content {
+  max-width: 900px;
+}
+
 In this post I analyze the puzzle from [puzzles.baulab.info](https://puzzles.baulab.info) — reverse-engineering a 9,600 parameter attention-only transformer trained to count unique tokens. See [this Colab notebook](https://colab.research.google.com/drive/1vKbwqBBDfj5DFW8ELp6zqCJf_KtWM2ME?usp=sharing) for the corresponding code.
 
 ## Task
