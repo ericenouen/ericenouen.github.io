@@ -31,6 +31,9 @@ search: false
   font-size: 1em;
 }
 
-.wide-content .page__content {
-  max-width: 100%;
+.no-left-sidebar.layout--single .page {
+  @include breakpoint($large) {
+    padding-left: 0;
+    width: 100%;
+  }
 }
