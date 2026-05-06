@@ -27,7 +27,7 @@ I am broadly interested in responsible machine learning, with a particular focus
   *IEEE Big Data 2022*
 
 ## News
-- Excited to present both CBDebug and CBDiffuse at ICLR this April! Please reach out if you’ll be at the conference and want to chat.
+- Presented CBDebug and CBDiffuse at ICLR (Apr 2026)
 - Presented at the EnCORE Workshop on Interpretability in Modern AI, UC San Diego (Feb 2026)
 - Awarded the 2025–2026 Bowers CIS–LinkedIn Fellowship (Aug 2025)
 - Started PhD in Computer Science at Cornell University (Aug 2024)
