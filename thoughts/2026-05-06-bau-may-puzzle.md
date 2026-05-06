@@ -4,6 +4,7 @@ title: "Bau Lab May Mech Interp Puzzle"
 date: 2026-05-06
 categories: thoughts
 toc: true
+classes: wide
 toc_sticky: true
 permalink: /thoughts/bau-may-puzzle/
 ---
