@@ -8,13 +8,11 @@ toc_sticky: true
 permalink: /thoughts/bau-may-puzzle/
 ---
 
-In this post I just played around a bit with the puzzle from https://puzzles.baulab.info/index.html. 
+In this post I analyze the puzzle from [puzzles.baulab.info](https://puzzles.baulab.info) — reverse-engineering a 9,600 parameter attention-only transformer trained to count unique tokens. See [this Colab notebook](https://colab.research.google.com/drive/1vKbwqBBDfj5DFW8ELp6zqCJf_KtWM2ME?usp=sharing) for the corresponding code.
 
 ## Task
 
 Given a sequence of 10 tokens drawn from a vocabulary of 10 symbols, predict the number of distinct symbols. The released model hits 100% accuracy on every count from 1 through 10 on a held-out test set. Reverse-engineer the algorithm it learned.
-
-## The model
 
 | | |
 |---|---|
@@ -37,9 +35,9 @@ token_embedding
     → linear unembed → logits
 ```
 
-## Submission
+---
 
-### Mechanism
+# Submission
 The model partitions the 10-symbol vocabulary into four groups, each handled by a dedicated mechanism:
 
 | Token group | Handled by | Mechanism |
@@ -51,11 +49,11 @@ The model partitions the 10-symbol vocabulary into four groups, each handled by 
 
 The four L1 heads contribute independently and additively to the final count logits. Below, we provide proof that the algorithm is split into these four groups, then explain each group's mechanism in detail.
 
-
-
 ## The Four-Way Partition
 
 Each Layer 1 head is causally necessary for exactly its token group — performing mean ablation drops accuracy to 0% when those tokens are present, but leaves accuracy at 100% when they are absent. Furthermore, the prediction drops by approximately the number of unique tokens in that group.
+
+![](/thoughts/images/result0.png)
 
 ## Mechanism 1: Counting `b`
 
@@ -65,6 +63,8 @@ Each Layer 1 head is causally necessary for exactly its token group — performi
 - `b` attends only to itself or BOS in Layer 0 (1.000), other tokens never attend to `b` (0.000)  
 - L1 head 0 attends to `b` if present, else BOS (1.000 both ways)
 - OV(`b`) − OV(BOS) is consistently rightward, encoding +1 to the count
+
+![](/thoughts/images/result1.png)
 
 ## Mechanism 2: Counting `f`
 
@@ -76,6 +76,8 @@ Each Layer 1 head is causally necessary for exactly its token group — performi
 - L1 head 1 attends to `f` if present, else g/d/h — proven 1.000 in both cases
 - OV(`f`) − OV(g/d/h) projects rightward, encoding exactly +1
 
+![](/thoughts/images/result2.png)
+
 ## Mechanism 3: Counting `a`, `h`, `d`, `g`
 
 Each Layer 0 head is dedicated to one anchor token (head 0→`a`, head 1→`h`, head 2→`d`, head 3→`g`). When an anchor is present, every subsequent non-b/f/ANS token attends to it with probability 1.000, causing the anchor's OV vector to be written into all subsequent residuals. This creates an accumulated fingerprint encoding which anchors appeared. Layer 1 head 2 is biased toward later positions (which have richer fingerprints via higher key scores), and its value circuit produces a rightward logit shift proportional to how many unique anchors were present.
@@ -84,6 +86,8 @@ Each Layer 0 head is dedicated to one anchor token (head 0→`a`, head 1→`h`, 
 - Every non-b/f token after an anchor attends to it: 1.000 for all four heads
 - Forcing L1 head 2 to attend to last non-b/f position gives 1.000 accuracy; first position gives 0.002 — the last position always contains the full fingerprint
 - Head 2 logit contribution scales with anchor count (0→4 anchors produces monotonically increasing rightward shift)
+
+![](/thoughts/images/result3.png)
 
 ## Mechanism 4: Counting `c`, `e`, `i`, `j`
 
@@ -94,6 +98,8 @@ Each Layer 0 head writes one designated secondary token to the ANS position (hea
 - Each ceij token's query shift is ~0.98 anti-parallel to the baseline query (destructive interference)
 - q·k_BOS drops monotonically with ceij count: 19.2 → 11.6 → 8.9 → 6.3 → 3.6
 - BOS logit contribution shrinks with each additional ceij token, reducing the low-count bias
+
+![](/thoughts/images/result4.png)
 
 # Final Summary
 
