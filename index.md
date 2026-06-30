@@ -10,6 +10,10 @@ I am broadly interested in responsible machine learning, with a particular focus
 
 ## Research
 
+- **Shifting Mechanisms: How Positional Encoding Choice Shapes Long-Context Retrieval**  
+  Eric Enouen, Sainyam Galhotra  
+  *Under Review*
+  
 - **[Concept Bottleneck Diffusion for Steerable Generation](https://openreview.net/forum?id=yP7ReFvRGN)**  
   Eric Enouen, Sainyam Galhotra  
   *UCRL Workshop @ ICLR 2026*
