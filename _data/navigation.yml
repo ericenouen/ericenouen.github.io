@@ -2,7 +2,7 @@
 main:
   - title: "Home"
     url: https://ericenouen.github.io/
-  - title: "Research Thoughts"
-    url: https://ericenouen.github.io/thoughts/
+  # - title: "Research Thoughts"
+  #   url: https://ericenouen.github.io/thoughts/
   - title: "Fun"
     url: https://ericenouen.github.io/fun/
