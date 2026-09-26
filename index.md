@@ -13,14 +13,14 @@ I am broadly interested in responsible machine learning, with a particular focus
 - **Shifting Mechanisms: How Positional Encoding Choice Shapes Long-Context Retrieval**  
   Eric Enouen, Sainyam Galhotra  
   *Workshop on Actionable Interpretability @ COLM 2026*
-  
-- **[Concept Bottleneck Diffusion for Steerable Generation](https://openreview.net/forum?id=yP7ReFvRGN)**  
-  Eric Enouen, Sainyam Galhotra  
-  *UCRL Workshop @ ICLR 2026*
 
 - **[Debugging Concept Bottleneck Models through Removal and Retraining](https://ericenouen.github.io/cbdebug/)**  
   Eric Enouen, Sainyam Galhotra  
   *ICLR 2026*
+
+- **[Concept Bottleneck Diffusion for Steerable Generation](https://openreview.net/forum?id=yP7ReFvRGN)**  
+  Eric Enouen, Sainyam Galhotra  
+  *UCRL Workshop @ ICLR 2026*
 
 - **DisGUIDE: Disagreement-Guided Data-Free Model Extraction**  
   Jonathan Rosenthal, Eric Enouen, Hung Viet Pham, Lin Tan  
