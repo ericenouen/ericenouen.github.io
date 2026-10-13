@@ -10,9 +10,9 @@ I am broadly interested in responsible machine learning, with a particular focus
 
 ## Research
 
-- **Shifting Mechanisms: How Positional Encoding Choice Shapes Long-Context Retrieval**  
+- **[Shifting Mechanisms: How Positional Encoding Choice Shapes Long-Context Retrieval](https://arxiv.org/abs/2609.38530)**  
   Eric Enouen, Sainyam Galhotra  
-  *Workshop on Actionable Interpretability @ COLM 2026*
+  *Workshop on Actionable Interpretability @ COLM 2026* <span class="badge-oral">Oral</span>
 
 - **[Debugging Concept Bottleneck Models through Removal and Retraining](https://ericenouen.github.io/cbdebug/)**  
   Eric Enouen, Sainyam Galhotra  
@@ -31,6 +31,7 @@ I am broadly interested in responsible machine learning, with a particular focus
   *IEEE Big Data 2022*
 
 ## News
+- Presented Shifting Mechanisms at COLM (Oct 2026)
 - Presented CBDebug and CBDiffuse at ICLR (Apr 2026)
 - Presented at the EnCORE Workshop on Interpretability in Modern AI, UC San Diego (Feb 2026)
 - Awarded the 2025–2026 Bowers CIS–LinkedIn Fellowship (Aug 2025)
