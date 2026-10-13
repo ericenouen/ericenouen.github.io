@@ -12,7 +12,7 @@ I am broadly interested in responsible machine learning, with a particular focus
 
 - **[Shifting Mechanisms: How Positional Encoding Choice Shapes Long-Context Retrieval](https://arxiv.org/abs/2609.38530)**  
   Eric Enouen, Sainyam Galhotra  
-  *Workshop on Actionable Interpretability @ COLM 2026* <span class="badge-oral">Oral</span>
+  *Workshop on Actionable Interpretability @ COLM 2026* <span style="display:inline-block;padding:0.05em 0.5em;font-size:0.75em;font-weight:600;color:#fff;background:#3a8d5c;border-radius:4px;vertical-align:0.1em;">Oral</span>
 
 - **[Debugging Concept Bottleneck Models through Removal and Retraining](https://ericenouen.github.io/cbdebug/)**  
   Eric Enouen, Sainyam Galhotra  
