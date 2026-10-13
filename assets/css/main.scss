@@ -37,3 +37,14 @@ search: false
     width: 100%;
   }
 }
+
+.badge-oral {
+  display: inline-block;
+  padding: 0.05em 0.5em;
+  font-size: 0.75em;
+  font-weight: 600;
+  color: #fff;
+  background: #b31b1b; /* Cornell red; any accent color works */
+  border-radius: 4px;
+  vertical-align: middle;
+}
